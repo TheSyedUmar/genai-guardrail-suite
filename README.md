@@ -1,6 +1,6 @@
 # GenAI Guardrail & Validation Suite
 
-[![GenAI quality gate](https://github.com/YOUR-USERNAME/genai-guardrail-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USERNAME/genai-guardrail-suite/actions/workflows/ci.yml)
+[![GenAI quality gate](https://github.com/TheSyedUmar/genai-guardrail-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/TheSyedUmar/genai-guardrail-suite/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Tests](https://img.shields.io/badge/tests-25%20automated-brightgreen)
 
@@ -100,7 +100,7 @@ Every test run logs its parameters (chat model, judge model, guardrail on/off) a
 Requirements: Python 3.10+ and a free Groq API key from https://console.groq.com/keys (no credit card needed).
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/genai-guardrail-suite.git
+git clone https://github.com/TheSyedUmar/genai-guardrail-suite.git
 cd genai-guardrail-suite
 python -m venv .venv
 .venv\Scripts\activate          # Mac/Linux: source .venv/bin/activate
@@ -163,4 +163,4 @@ azure-pipelines.yml
 
 ## Author
 
-**Syed Umar**
+**Syed Umar**: [GitHub](https://github.com/TheSyedUmar)
