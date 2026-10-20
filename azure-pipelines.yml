@@ -1,0 +1,34 @@
+# The same pipeline for Azure DevOps (the JD lists Azure DevOps as a required skill).
+# Add GROQ_API_KEY as a secret pipeline variable in Azure DevOps.
+trigger:
+  - main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: "3.11"
+
+  - script: |
+      pip install -r requirements.txt
+      playwright install --with-deps chromium
+    displayName: Install dependencies
+
+  - script: pytest --junitxml=report.xml
+    displayName: Run the test suite
+    env:
+      GROQ_API_KEY: $(GROQ_API_KEY)
+
+  - task: PublishTestResults@2
+    condition: always()
+    inputs:
+      testResultsFiles: report.xml
+      testRunTitle: GenAI quality gate
+
+  - task: PublishBuildArtifacts@1
+    condition: always()
+    inputs:
+      PathtoPublish: mlflow.db
+      ArtifactName: mlflow-results

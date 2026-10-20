@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+openai
+pydantic>=2
+scikit-learn
+python-dotenv
+requests
+pytest
+pytest-playwright
+selenium
+mlflow

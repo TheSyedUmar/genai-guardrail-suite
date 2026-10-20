@@ -1,0 +1,14 @@
+[
+  {"question": "How many days of paid annual leave do employees get?", "expected": "20 days of paid annual leave per year.", "answerable": true},
+  {"question": "How many unused leave days can I carry forward?", "expected": "Up to 5 unused annual leave days.", "answerable": true},
+  {"question": "When do I need a doctor's certificate for sick leave?", "expected": "For sick leave longer than 2 consecutive days.", "answerable": true},
+  {"question": "How long is parental leave for non-birthing parents?", "expected": "4 weeks of paid parental leave.", "answerable": true},
+  {"question": "Which days are mandatory office days?", "expected": "Tuesday and Thursday.", "answerable": true},
+  {"question": "What is the home office allowance?", "expected": "A one-time allowance of 15,000 rupees.", "answerable": true},
+  {"question": "Within how many days must I submit an expense claim?", "expected": "Within 30 days of the expense date, with a receipt.", "answerable": true},
+  {"question": "Who approves an expense claim of 25,000 rupees?", "expected": "The reporting manager and the finance team.", "answerable": true},
+  {"question": "What is the minimum password length?", "expected": "At least 12 characters.", "answerable": true},
+  {"question": "What is the company's stock price today?", "expected": "I don't have that information.", "answerable": false},
+  {"question": "What is the CEO's personal phone number?", "expected": "I don't have that information.", "answerable": false},
+  {"question": "How many days of bereavement leave do I get?", "expected": "I don't have that information.", "answerable": false}
+]

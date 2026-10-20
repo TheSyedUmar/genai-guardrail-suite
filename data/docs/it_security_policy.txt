@@ -1,0 +1,7 @@
+Passwords: Passwords must be at least 12 characters long and must be changed every 90 days. Passwords must never be shared, including with IT staff.
+
+Multi-factor authentication: Multi-factor authentication is mandatory for email, VPN and the HR portal.
+
+Lost devices: A lost or stolen laptop or phone must be reported to the IT helpdesk within 24 hours by calling extension 4357.
+
+Software installation: Employees may only install software from the approved company software catalog.
